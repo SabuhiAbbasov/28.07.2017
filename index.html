@@ -1,36 +1,24 @@
 <!DOCTYPE html>
 <head>
-    <title>DIGITAL MARKETO</title>
-    <meta name="description" content="A great collection of creative, responsive, elegant onepage templates for different industries.">
-    <meta name="keywords" content="css3, html5, bootstrap">
-    <meta charset="utf-8">
-    <meta name="author" content="">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
-    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
-    <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
-    <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
 </head>
 
 <body>
     <header id="top">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12  hidden-xs">
+                <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12  hidden-xs" style="margin-top: 5px;">
                     <div id="custom-search-input">
                         <div class="input-group"> 
                             <span class="input-group-btn">
-                                    <button class="btn" type="button">
+                                    <button class="btn" type="button"><span class="lnr lnr-magnifier"></span>
                                         <span class="icon-magnifier">
                                         </span>
                                     </button>
@@ -41,14 +29,107 @@
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
                     <ul class="pull-right header-right">
-                        <li> <a href="tel:012.345.1234"><span class="icon-telephone"></span><span>012.345.1234</span></a></li>
-                        <li> <img src="img/separator.png" alt="separator" class="img-responsive" /> </li>
-                        <li> <a href="mailto:info@company.com"><span class="icon-envelope"></span><span>info@company.com</span></a></li>
+                        <li> <a href="tel:012.345.1234">
+                            <span class="lnr lnr-phone-handset"></span>
+                            <span>012.345.1234</span></a>
+                        </li>
+                        <li> 
+                            <img src="img/separator.png" alt="separator" class="img-responsive" />
+                         </li>
+                        <li><a href="mailto:info@company.com">
+                            <span class="lnr lnr-envelope"></span>
+                            <span>info@company.com</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </header>       
+    </header>
+    <nav id="navbar-main" class="navbar main-menu"> 
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button> 
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="Brand" class="img-responsive">
+                </a>   
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown"><a href="#" data-toggle="dropdown">Services &nbsp; <span class="lnr lnr-chevron-down"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="logo-and-branding.html"><span class="icon-palette"></span>"Logo & Branding"</a></li>
+                            <li><a href="website-development.html" class="b-clor"><span class="icon-laptop-phone"></span>"website Development"</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="case-studies.html">Case Studies</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="btn btn-fill" data-toggle="modal" data-target="#getAQuoteModal">
+                        <a href="#">GET A QUOTE &nbsp;<span class="lnr lnr-chevron-right"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="banner  o-hidden banner-inner social-media-marketing-banner">
+        <div class="container">
+            <div class="banner-txt">
+                <h1>Social Media Marketing</h1>
+                <p class="semi-bold">Increase traffic and create better customer engagement by our<br>Social media marketing strategy.</p>
+                <a href="#process-tab" class="medium-btn2 btn btn-nofill page-scroll">OUR Process</a>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white o-hidden common-form-section  service-description-section">
+        <div class="container">
+            <h2 class="b-clor">Result Oriented Marketing</h2>
+            <hr class="dark-line">
+            <div class="row">
+                <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
+                    <h3 class="semi-bold">Create Great Customer Engagement</h3>
+                    <p class="regular-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis 
+                        nisl ut aliquip ex ea commodo consequat. Consectetuer adipiscing elit, sed diam nonummy 
+                        nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                    </p>
+                    <ul>
+                        <li>
+                            <span class="lnr lnr-pencil"></span>
+                            Well written content attracts more audience.
+                        </li>
+                        <li>
+                            <span class="lnr inr-vector"></span>
+                            Stunning social media designs.
+                        </li>
+
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+
+        
+    </section>     
        
        
        

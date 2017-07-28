@@ -64,3 +64,227 @@ li {
     display: inline-block;
     text-align: -webkit-match-parent;
 }
+.main-menu{
+    padding: 29px 0 0;
+    margin: 0;
+}
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+.main-menu .nav{
+    padding: 0 0 32px;
+}
+.main-menu .navbar-nav li{
+    margin-right: 45px;
+}
+.main-menu .navbar-nav a{
+    padding: 13px 0 5px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #606060;
+}
+.main-menu .navbar-nav li > .dropdown-menu {
+    padding: 45px 30px 25px;
+    z-index: 1021;
+    box-shadow: none;
+    border: none;
+    left: 0;
+    right: auto;
+    width: auto;
+    border-radius: 0;
+    top: 43px;
+}
+.main-menu .navbar-nav li > .dropdown-menu li a {
+    padding: 0 0 10px;
+    font-size: 14px;
+    color: #606060;
+}
+.main-menu .navbar-nav li > .dropdown-menu li a:hover,
+.main-menu .navbar-nav li > .dropdown-menu li a:focus {
+    border: none;
+    color: #53b778;
+}
+.main-menu .navbar-nav li > .dropdown-menu li:last-child a {
+    padding: 0;
+}
+.main-menu .navbar-nav li > .dropdown-menu li a span {
+    margin-right: 20px;
+    color: #323a45;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+}
+.main-menu .navbar-nav li > .dropdown-menu li a:hover span {
+    color: #53b778;
+    ;
+}
+
+.main-menu .navbar-nav li > .dropdown-menu .b-clor.semi-bold {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.main-menu .navbar-nav li.dropdown a.dropdown-toggle:after {
+    content: "\e93a";
+    font-family: "linearicons" !important;
+    margin: 10px;
+    font-size: 12px;
+}
+.navbar-right li.btn.btn-fill {
+    padding: 7px 14px 7px 17px;
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+.main-menu .navbar-nav li:last-child {
+    margin-right: 0;
+}
+.navbar-right li.btn.btn-fill a {
+    padding: 0;
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+}
+.btn.btn-fill {
+    vertical-align: middle;
+    line-height: 18px;
+    background: #53b778;
+    height: 44px;
+    border-radius: 0;
+    padding: 12px 14px 12px 18px;
+    text-transform: uppercase;
+    border: 2px solid #53b778;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+}
+.banner-inner.social-media-marketing-banner{
+    background: url(../img/social-media-marketing-banner.jpg)
+}
+.banner-inner{
+    background-size: cover;
+    background-position: center center !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.o-hidden{
+    overflow: hidden;
+}
+.banner-inner .baner-txt{
+    padding-top: 81px;
+}
+.banner .banner-txt{
+    padding: 83px 0 93px;
+    color: #fff;
+}
+.banner-inner .banner-txt p {
+    margin-bottom: 35px;
+}
+
+.banner .banner-txt p {
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+.medium-btn2.btn-nofill{
+    font-size: 14px;
+    height: 50px;
+}
+.medium-btn2.btn.btn-nofill {
+    padding: 12px 20px;
+    line-height: 24px;
+}
+.btn.btn-nofill {
+    background: transparent;
+    line-height: 18px;
+    border-radius: 0;
+    padding: 12px 20px;
+    border: 2px solid #53b778;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.service-description-section{
+    padding-bottom: 0;
+}
+.bg-white{
+    background: #fff;
+    padding: 85px 0 0;
+}
+.bg-white h2{
+    margin: 0;
+}
+.b-color{
+    color: #53b778;
+}
+h2{
+    font-size: 30px;
+    line-height: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+}
+hr.dark-line{
+    background: url(../img/line-gray.png);
+}
+hr{
+    width: 100%;
+    border: none;
+    height: 1px;
+    margin: 15px 0;
+    box-sizing: content-box;
+}
+.service-description-section h3{
+    margin-bottom: 25px;
+}
+.common-form-section h3{
+    margin: 40px 0 30px;
+    color: #323a45;
+}
+h3{
+    font-size: 24px;
+    line-height: 30px;
+}
+.common-form-section .regular-text {
+    line-height: 26px;
+}
+
+.regular-text {
+    font-size: 16px;
+}
+p{
+    margin: 0 0 10px;
+}
+.service-description-section ul{
+    margin: 34px 0 31px;
+}
+.common-form-section ul{
+    list-style: none;
+    padding: 0;
+}
+.common-form-section ul li{
+    font-size: 16px;
+    line-height: 48px;
+}
+.common-form-section ul li span {
+    font-size: 30px;
+    margin-right: 12px;
+    top: 5px;
+    position: relative;
+}
+
+
