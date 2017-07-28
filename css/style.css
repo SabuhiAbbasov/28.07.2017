@@ -1,0 +1,66 @@
+body{
+    font-family: "Raleway",sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #606060;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+header{
+    background: #f5f6f7;
+    min-height: 44px;
+}
+header ul.header-right{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+.pull-right{
+    float: right !important;
+}
+header ul.header-right li{
+    float: left;
+    margin-right: 20px;
+}
+header ul.header-right a{
+    position: relative;
+    top: 10px;
+}
+header ul.header-right span.icon-telephone {
+    color: #323a45;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+header ul.header-right a span {
+    color: #606060;
+    line-height: normal;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+header ul.header-right li:last-child {
+    margin-right: 0;
+}
+header ul.header-right span.icon-envelope {
+    color: #323a45;
+    margin-right: 10px;
+    font-size: 18px;
+}
+li {
+    display: inline-block;
+    text-align: -webkit-match-parent;
+}
